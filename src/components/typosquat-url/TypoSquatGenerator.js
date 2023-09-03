@@ -36,7 +36,7 @@ function TypoSquatGenerator() {
         setShowProgress(true); // Make progressbar visible
 
         const MAX_DOMAINS = 50; // Number of registered domains to retrieve
-        const api_url = "https://phishr-api.up.railway.app/get_typesquatted_urls";
+        const api_url = "https://phishr-api-2-production.up.railway.app/get_typesquatted_urls";
 
         var data = {
             url: input_Url.toLocaleLowerCase(),
